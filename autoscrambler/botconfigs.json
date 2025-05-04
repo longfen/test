@@ -1,0 +1,51 @@
+{
+  "1283155639375495178": {
+    "configs": {
+      "myserver": {
+        "ip": "kotomc.nexuspe.net",
+        "port": "19134"
+      },
+      "test": {
+        "ip": "1.2.3.4",
+        "port": "19132"
+      }
+    },
+    "access": {
+      "timeout_until": 0,
+      "can_config": false,
+      "can_start": false,
+      "can_stop": false,
+      "config_times": 4899977632
+    }
+  },
+  "781058464604487691": {
+    "configs": {
+      "a": {
+        "ip": "kotomc.nexuspe.net",
+        "port": "19134"
+      }
+    },
+    "access": {
+      "timeout_until": 0,
+      "can_config": false,
+      "can_start": false,
+      "can_stop": false,
+      "config_times": 1746381034
+    }
+  },
+  "another_user_id": {
+    "configs": {
+      "prod": {
+        "ip": "5.6.7.8",
+        "port": "19132"
+      }
+    },
+    "access": {
+      "timeout_until": 0,
+      "can_config": true,
+      "can_start": true,
+      "can_stop": true,
+      "config_times": 0
+    }
+  }
+}
