@@ -432,9 +432,8 @@ func main() {
 			TokenSource: tokenSource,
 		}.Dial("raknet", target)
 		if err != nil {
-			// If the error is likely due to an invalid/expired token, delete the token file
 			fmt.Println("Connection error:", err)
-			_ = os.Remove(tokenFile)
+			// Never delete the token file automatically
 			time.Sleep(2 * time.Second)
 			continue
 		}
